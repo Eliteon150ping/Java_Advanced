@@ -1,4 +1,4 @@
-package Chapter15.examples;
+package Chapter_15.examples;
 
 public class SynchronizedCounter {
   private static int i = 0;

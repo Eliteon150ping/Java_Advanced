@@ -1,4 +1,4 @@
-package Chapter15.examples;
+package Chapter_15.examples;
 
 public class ExampleRunnable implements Runnable {
     private final String name;
