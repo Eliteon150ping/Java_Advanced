@@ -1,12 +1,8 @@
-package Chapter17;
+package Chapter_17;
 
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- * @author oracle
- */
 public class Buyer {
 
     private String name;

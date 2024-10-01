@@ -1,9 +1,5 @@
-package Chapter17;
+package Chapter_17;
 
-/**
- *
- * @author oracle
- */
 public enum State {    
     CA("CA"),
     CO("CO"),

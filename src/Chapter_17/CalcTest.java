@@ -1,11 +1,7 @@
-package Chapter17;
+package Chapter_17;
 
 import java.util.List;
 
-/**
- *
- * @author oracle
- */
 public class CalcTest {
     
     public static void main(String[] args) {

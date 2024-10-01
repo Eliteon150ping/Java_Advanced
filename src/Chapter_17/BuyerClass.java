@@ -1,9 +1,5 @@
-package Chapter17;
+package Chapter_17;
 
-/**
- *
- * @author oracle
- */
 public enum BuyerClass {
     BASIC(0.0d),
     SILVER(0.01d),

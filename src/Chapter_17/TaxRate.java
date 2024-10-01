@@ -1,9 +1,5 @@
-package Chapter17;
+package Chapter_17;
 
-/**
- *
- * @author oracle
- */
 public enum TaxRate {  
     CA(0.09d),
     CO(0.08d),
