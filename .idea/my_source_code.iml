@@ -6,8 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/labs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/labs/15-Concurrency/practices" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/srcDummies" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="postgresql-42.7.4" level="project" />
   </component>
 </module>
