@@ -1,4 +1,7 @@
-module srcDummies {
+module Book_6 {
+    requires java.sql;
+    requires java.desktop;
+    requires java.xml;
     requires javafx.controls;
     requires javafx.fxml;
 
