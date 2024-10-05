@@ -1,4 +1,4 @@
-package Book_8.Chapter_4;
+package Chapter_4;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class JDBCTest {
 
     public static void main(String[] args) {
-            Connection con = getconnection();
+        Connection con = getconnection();
     }
 
     private static Connection getconnection()
@@ -15,15 +15,11 @@ public class JDBCTest {
         Connection con = null;
         try
         {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost/Movies";
-            String user = "root";
-            String pw = "password";
+            // Removed Class.forName as it's not required for modern JDBC
+            String url = "jdbc:postgresql://localhost:5432/movies";
+            String user = "postgres";
+            String pw = "Rishen360#";
             con = DriverManager.getConnection(url, user, pw);
-        }
-        catch (ClassNotFoundException e)
-        {
-            System.out.println(e.getMessage());
         }
         catch (SQLException e)
         {
@@ -33,5 +29,4 @@ public class JDBCTest {
         System.out.println("SUCCESSFUL CONNECTION!");
         return con;
     }
-
 }
