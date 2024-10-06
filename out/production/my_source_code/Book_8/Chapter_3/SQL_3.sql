@@ -9,16 +9,21 @@ CREATE TABLE friend (
 );
 
 
-insert into friend (lastname, firstname, movieid)
- values ("Haskell", "Eddie", 3);
-insert into friend (lastname, firstname, movieid)
- values ("Haskell", "Eddie", 5);
-insert into friend (lastname, firstname, movieid)
- values ("Cleaver", "Wally", 9);
-insert into friend (lastname, firstname, movieid)
- values ("Mondello", "Lumpy", 2);
-insert into friend (lastname, firstname, movieid)
- values ("Cleaver", "Wally", 3);
+INSERT INTO friend (lastname, firstname, movieid)
+VALUES ('Haskell', 'Eddie', 3);
+
+INSERT INTO friend (lastname, firstname, movieid)
+VALUES ('Haskell', 'Eddie', 5);
+
+INSERT INTO friend (lastname, firstname, movieid)
+VALUES ('Cleaver', 'Wally', 9);
+
+INSERT INTO friend (lastname, firstname, movieid)
+VALUES ('Mondello', 'Lumpy', 2);
+
+INSERT INTO friend (lastname, firstname, movieid)
+VALUES ('Cleaver', 'Wally', 3);
+
  
  SELECT firstname, lastname, title 
 	FROM movie, friend 
